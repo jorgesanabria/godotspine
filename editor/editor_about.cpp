@@ -34,6 +34,7 @@
 #include "authors.gen.h"
 #include "donors.gen.h"
 #include "license.gen.h"
+#include "gamevolutions.h"
 #include "version.h"
 #include "version_hash.gen.h"
 
@@ -131,11 +132,14 @@ EditorAbout::EditorAbout() {
 		hash = "." + hash.left(7);
 
 	Label *about_text = memnew(Label);
+	Label *gamevolutions_text = memnew(Label);
 	about_text->set_v_size_flags(Control::SIZE_SHRINK_CENTER);
 	about_text->set_text(VERSION_FULL_NAME + hash +
 						 String::utf8("\n\xc2\xa9 2007-2018 Juan Linietsky, Ariel Manzur.\n\xc2\xa9 2014-2018 ") +
 						 TTR("Godot Engine contributors") + "\n");
+						 //gamevolutions_text->set_text(String::utf8("2018 Gamevolutions - Spine 2D Edition"));
 	hbc->add_child(about_text);
+	//hbc->add_child(gamevolutions_text);
 
 	TabContainer *tc = memnew(TabContainer);
 	tc->set_custom_minimum_size(Size2(630, 240) * EDSCALE);
@@ -246,6 +250,15 @@ EditorAbout::EditorAbout() {
 	_tpl_tree->connect("item_selected", this, "_license_tree_selected");
 	tpl_ti_all->select(0);
 	_tpl_text->set_text(tpl_ti_all->get_metadata(0));
+
+
+	// Gamevolutions
+	_gamevolutions_text = memnew(RichTextLabel);
+	_gamevolutions_text->set_name(TTR("About Spine2D Build"));
+	_gamevolutions_text->set_h_size_flags(Control::SIZE_EXPAND_FILL);
+	_gamevolutions_text->set_v_size_flags(Control::SIZE_EXPAND_FILL);
+	_gamevolutions_text->set_text(String::utf8(gamevolutions_license));
+	tc->add_child(_gamevolutions_text);
 }
 
 EditorAbout::~EditorAbout() {}

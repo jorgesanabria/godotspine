@@ -172,7 +172,8 @@ EditorLog::EditorLog() {
 	log->set_v_size_flags(SIZE_EXPAND_FILL);
 	log->set_h_size_flags(SIZE_EXPAND_FILL);
 	vb->add_child(log);
-	add_message(VERSION_FULL_NAME " (c) 2007-2018 Juan Linietsky, Ariel Manzur & Godot Contributors.");
+	//add_message(VERSION_FULL_NAME " (c) 2007-2018 Juan Linietsky, Ariel Manzur & Godot Contributors.");
+	add_message(VERSION_FULL_NAME " (c) 2007-2018 Juan Linietsky, Ariel Manzur & Godot Contributors. - Gamevolutions - Spine 2D Edition");
 	//log->add_text("Initialization Complete.\n"); //because it looks cool.
 
 	eh.errfunc = _error_handler;

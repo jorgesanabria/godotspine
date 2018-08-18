@@ -57,6 +57,7 @@ private:
 
 	Tree *_tpl_tree;
 	RichTextLabel *_license_text;
+	RichTextLabel *_gamevolutions_text;
 	RichTextLabel *_tpl_text;
 	TextureRect *_logo;
 

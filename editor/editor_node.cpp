@@ -2532,6 +2532,21 @@ void EditorNode::_menu_option_confirm(int p_option, bool p_confirmed) {
 		case HELP_COMMUNITY: {
 			OS::get_singleton()->shell_open("https://godotengine.org/community");
 		} break;
+		case HELP_SPINE2D: {
+			OS::get_singleton()->shell_open("http://esotericsoftware.com/");
+		} break;
+		case HELP_SPINE2D_DOCS: {
+			OS::get_singleton()->shell_open("http://pt.esotericsoftware.com/spine-academy");
+		} break;
+		case HELP_GAMEVOLUTIONS: {
+			OS::get_singleton()->shell_open("https://gamevolutions.com");
+		} break;
+		case HELP_BLENDER: {
+			OS::get_singleton()->shell_open("https://www.blender.org/");
+		} break;
+		case HELP_BLENDER_DOCS: {
+			OS::get_singleton()->shell_open("https://docs.blender.org/");
+		} break;
 		case HELP_ABOUT: {
 			about->popup_centered_minsize(Size2(780, 500) * EDSCALE);
 		} break;
@@ -5290,6 +5305,14 @@ EditorNode::EditorNode() {
 	p->add_icon_item(gui_base->get_icon("Instance", "EditorIcons"), TTR("Q&A"), HELP_QA);
 	p->add_icon_item(gui_base->get_icon("Instance", "EditorIcons"), TTR("Issue Tracker"), HELP_ISSUES);
 	p->add_icon_item(gui_base->get_icon("Instance", "EditorIcons"), TTR("Community"), HELP_COMMUNITY);
+	p->add_separator();
+	p->add_icon_item(gui_base->get_icon("Spine", "EditorIcons"), TTR("Spine"), HELP_SPINE2D);
+	p->add_icon_item(gui_base->get_icon("Spine", "EditorIcons"), TTR("Spine Docs"), HELP_SPINE2D_DOCS);
+	p->add_separator();
+	p->add_icon_item(gui_base->get_icon("Gamevolutions", "EditorIcons"), TTR("Gamevolutions"), HELP_GAMEVOLUTIONS);
+	p->add_separator();
+	p->add_icon_item(gui_base->get_icon("Blender", "EditorIcons"), TTR("Blender"), HELP_BLENDER);
+	p->add_icon_item(gui_base->get_icon("Blender", "EditorIcons"), TTR("Blender Docs"), HELP_BLENDER_DOCS);
 	p->add_separator();
 	p->add_icon_item(gui_base->get_icon("Godot", "EditorIcons"), TTR("About"), HELP_ABOUT);
 
