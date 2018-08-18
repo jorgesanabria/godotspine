@@ -80,21 +80,21 @@ SCons build system.
 
 ### How to build on Windows
 For Windows run this command:
-scons platform=windows tools=yes target=release_debug
+### scons platform=windows tools=yes target=release_debug
 
 Tip: if you installed “Pywin32 Python Extension” you can append the -j command to instruct SCons to run parallel builds like this:
-scons -j8 platform=windows tools=yes target=release_debug
+### scons -j8 platform=windows tools=yes target=release_debug
 
-Note -jx (x) is the number of cpu cores you have.
+### Note -jx (x) is the number of cpu cores you have.
 
 ### How to build on Linux
-scons platform=x11 tools=yes target=release_debug
+### scons platform=x11 tools=yes target=release_debug
 
 Tip: if you installed “Pywin32 Python Extension” you can append the -j command to instruct SCons to run parallel builds like this:
-scons -j8 platform=x11 tools=yes target=release_debug
+### scons -j8 platform=x11 tools=yes target=release_debug
 
-Note -jx (x) is the number of cpu cores you have.
+### Note -jx (x) is the number of cpu cores you have.
 
 ### Information to compile.
 For more help can search where:
-http://docs.godotengine.org/en/3.0/development/compiling/index.html
+### http://docs.godotengine.org/en/3.0/development/compiling/index.html
