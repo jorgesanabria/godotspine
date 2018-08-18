@@ -67,3 +67,34 @@ for more info.
 [![Travis Build Status](https://travis-ci.org/godotengine/godot.svg?branch=master)](https://travis-ci.org/godotengine/godot)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/bfiihqq6byxsjxxh/branch/master?svg=true)](https://ci.appveyor.com/project/akien-mga/godot)
 [![Code Triagers Badge](https://www.codetriage.com/godotengine/godot/badges/users.svg)](https://www.codetriage.com/godotengine/godot)
+
+
+
+### Requirements to build
+For compiling under Windows, the following is required:
+
+Visual C++, Visual Studio Community (recommended), version 2013 (12.0) or later. Make sure you read Installing Visual Studio caveats below or you will have to run/download the installer again.
+Python 2.7+ or Python 3.5+.
+Pywin32 Python Extension for parallel builds (which increase the build speed by a great factor).
+SCons build system.
+
+### How to build on Windows
+For Windows run this command:
+scons platform=windows tools=yes target=release_debug
+
+Tip: if you installed “Pywin32 Python Extension” you can append the -j command to instruct SCons to run parallel builds like this:
+scons -j8 platform=windows tools=yes target=release_debug
+
+Note -jx (x) is the number of cpu cores you have.
+
+### How to build on Linux
+scons platform=x11 tools=yes target=release_debug
+
+Tip: if you installed “Pywin32 Python Extension” you can append the -j command to instruct SCons to run parallel builds like this:
+scons -j8 platform=x11 tools=yes target=release_debug
+
+Note -jx (x) is the number of cpu cores you have.
+
+### Information to compile.
+For more help can search where:
+http://docs.godotengine.org/en/3.0/development/compiling/index.html
