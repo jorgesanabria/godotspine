@@ -257,7 +257,7 @@ EditorAbout::EditorAbout() {
 	_gamevolutions_text->set_name(TTR("About Spine2D Build"));
 	_gamevolutions_text->set_h_size_flags(Control::SIZE_EXPAND_FILL);
 	_gamevolutions_text->set_v_size_flags(Control::SIZE_EXPAND_FILL);
-	_gamevolutions_text->set_text(String::utf8(gamevolutions_license));
+	_gamevolutions_text->set_text(String::utf8(gamevolutions_license2));
 	tc->add_child(_gamevolutions_text);
 }
 
