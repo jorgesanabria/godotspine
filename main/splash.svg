@@ -16,8 +16,8 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="gamevolutions_splash.svg"
-   inkscape:export-filename="C:\Users\diogo\Desktop\splash_editor.png"
+   sodipodi:docname="splash.svg"
+   inkscape:export-filename="D:\GITHUB\splash.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -29,11 +29,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9021173"
-     inkscape:cx="195.44294"
-     inkscape:cy="-34.978617"
+     inkscape:zoom="0.95105865"
+     inkscape:cx="294.69592"
+     inkscape:cy="233.64437"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="svg8"
      showgrid="false"
      units="px"
      inkscape:showpageshadow="false"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,7 +59,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-138.24998)">
+     transform="translate(0,-138.24998)"
+     style="display:inline"
+     sodipodi:insensitive="true">
     <image
        y="138.24998"
        x="3.4195964e-006"
@@ -73,7 +75,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Spine"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.87433052px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#478cbf;fill-opacity:1;stroke:none;stroke-width:0.12186202"
@@ -85,43 +88,39 @@
          x="83.04084"
          y="121.3436"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.87433052px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#478cbf;fill-opacity:1;stroke-width:0.12186202">Spine 2D Edition</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Gamevolutions">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.239645px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.05599072;"
-       x="85.409698"
-       y="156.28711"
-       id="text239"><tspan
-         sodipodi:role="line"
-         id="tspan237"
-         x="85.409698"
-         y="156.28711"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.239645px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.05599072;">https://www.gamevolutions.com</tspan></text>
-    <text
-       id="text20"
-       y="124.0591"
-       x="109.80764"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.239645px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.05599072;"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.239645px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.05599072;"
-         y="124.0591"
-         x="109.80764"
-         id="tspan18"
-         sodipodi:role="line">Build: 3.6.52.1 </tspan></text>
-    <text
-       id="text829"
-       y="154.05186"
-       x="71.574211"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.239645px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.05599072;"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.239645px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.05599072;"
-         y="154.05186"
-         x="71.574211"
-         id="tspan827"
-         sodipodi:role="line">© 2018 Gamevolutions. Todos os direitos reservados.</tspan></text>
+    <g
+       transform="matrix(0.34246573,0,0,0.34246573,86.969172,58.374066)"
+       id="g941">
+      <circle
+         r="20.308508"
+         cy="211.05136"
+         cx="55.083351"
+         id="path886"
+         style="opacity:1;fill:#545454;fill-opacity:1;stroke:none;stroke-width:1.32291663;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <g
+         transform="translate(0.83459388,-1.5102184)"
+         id="g933">
+        <path
+           style="opacity:1;fill:#ff4000;fill-opacity:1;stroke:none;stroke-width:1.5394963;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 52.453261,204.09232 c -3.200041,-0.86294 -4.753791,-2.44018 -4.753791,-4.82565 0,-2.40649 0.423664,-2.64046 3.911114,-2.15993 1.574467,0.21694 4.086509,0.55182 5.582313,0.74415 3.690089,0.4745 4.273173,1.28293 2.980129,4.13188 -1.021112,2.2498 -4.089894,3.08839 -7.719765,2.10955 z"
+           id="path878"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:1;fill:#ff4000;fill-opacity:1;stroke:none;stroke-width:1.5394963;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 52.01006,213.17039 c -1.739211,-0.45481 -2.851241,-1.22937 -3.199561,-2.22856 -0.448502,-1.28657 -0.432296,-2.27711 0.0436,-2.66451 0.466265,-0.37957 9.155453,-0.63197 9.698826,-0.28173 0.5429,0.34994 0.478933,2.71152 -0.09567,3.53188 -0.264297,0.37733 -0.875859,0.89049 -1.359028,1.14035 -1.076864,0.55687 -3.837728,0.82956 -5.088164,0.50257 z"
+           id="path880"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:1;fill:#ff4000;fill-opacity:1;stroke:none;stroke-width:1.5394963;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 54.327331,221.04474 c -1.591467,-0.54679 -2.542815,-2.96287 -1.34729,-3.42164 0.779508,-0.29912 6.607197,-0.84756 7.079665,-0.66626 0.734541,0.28187 0.519167,2.43999 -0.322406,3.2306 -1.222319,1.14831 -3.508514,1.51059 -5.409969,0.8573 z"
+           id="path882"
+           inkscape:connector-curvature="0" />
+        <path
+           style="opacity:1;fill:#ff4000;fill-opacity:1;stroke:none;stroke-width:1.5394963;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 55.054501,227.44447 c -0.47426,-0.47426 -0.738361,-1.0433 -0.678777,-1.46252 0.09223,-0.64896 0.260502,-0.691 3.099547,-0.77434 2.698797,-0.0792 3.005702,-0.0326 3.038498,0.46185 0.121393,1.83007 -0.729413,2.55132 -3.009629,2.55132 -1.378124,0 -1.810286,-0.13696 -2.449639,-0.77631 z"
+           id="path884"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
   </g>
 </svg>
