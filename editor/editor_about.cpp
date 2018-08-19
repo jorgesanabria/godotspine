@@ -30,10 +30,9 @@
 
 #include "editor_about.h"
 #include "editor_node.h"
-
 #include "authors.gen.h"
 #include "donors.gen.h"
-#include "license.gen.h"
+//#include "license.gen.h"
 #include "gamevolutions.h"
 #include "version.h"
 #include "version_hash.gen.h"
@@ -257,7 +256,7 @@ EditorAbout::EditorAbout() {
 	_gamevolutions_text->set_name(TTR("About Spine2D Build"));
 	_gamevolutions_text->set_h_size_flags(Control::SIZE_EXPAND_FILL);
 	_gamevolutions_text->set_v_size_flags(Control::SIZE_EXPAND_FILL);
-	_gamevolutions_text->set_text(String::utf8(gamevolutions_license2));
+	_gamevolutions_text->set_text(String::utf8(gamevolutions_license));
 	tc->add_child(_gamevolutions_text);
 }
 
