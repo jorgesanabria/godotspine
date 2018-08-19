@@ -85,8 +85,6 @@ scons platform=windows tools=yes target=release_debug
 Tip: if you installed “Pywin32 Python Extension” you can append the -j command to instruct SCons to run parallel builds like this:
 scons -j8 platform=windows tools=yes target=release_debug
 
-### Note -jx (x) is the number of cpu cores you have.
-
 ### How to build on Linux
 scons platform=x11 tools=yes target=release_debug
 
